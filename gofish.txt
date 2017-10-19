@@ -1,0 +1,10 @@
+//Rules of Go Fish
+//each player draws 7 diffrent cards from a standard deck
+//on turn, ask any single player if they have a card that you own
+//	if they have it, take the cards
+//	if not, draw from pile
+//pass after sequence
+//each 4 matches gets set aside and the player recieves 1 point
+//player with most points wins
+
+ask number of players 
