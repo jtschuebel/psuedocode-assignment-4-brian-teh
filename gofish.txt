@@ -9,8 +9,8 @@
 //make 2 players
 //show both players their cards, hope for honor and no screen cheating
 
-define player 1
-define player 2
+define player 1// needs to define the maximum number of players
+define player 2// 
 define standard 52 deck of cards
 players 1 and 2 draw 6 diffrent cards from deck
 matching 4 cards of the same suit gains one point to their owner //ex. has 4 aces
@@ -21,7 +21,7 @@ while player1 && player2 have cards in their hand:
   player 1 asks for a card type that they own
   if player 2 has card:
     give them all of that type
-  else if deck contains cards:
+  else if deck contains cards:// needs to define saying go fish before picking up a card
     player 1 draws one card from the remaining deck of cards 
   if player 1 has four of any one card:
     set those cards to the side creating one book.
