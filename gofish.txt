@@ -6,5 +6,36 @@
 //pass after sequence
 //each 4 matches gets set aside and the player recieves 1 point
 //player with most points wins
+//make 2 players
+//show both players their cards, hope for honor and no screen cheating
 
-ask number of players 
+define player 1
+define player 2
+define standard 52 deck of cards
+players 1 and 2 draw 6 diffrent cards from deck
+matching 4 cards of the same suit gains one point to their owner //ex. has 4 aces
+player with highest ammount of points win
+player 1 goes first
+
+while player1 && player2 have cards in their hand:
+  player 1 asks for a card type that they own
+  if player 2 has card:
+    give them all of that type
+  else if deck contains cards:
+    player 1 draws one card from the remaining deck of cards 
+  if player 1 has four of any one card:
+    set those cards to the side creating one book.
+    update player 1's score by 1.
+  if player 2 has four of any one card:
+    set those cards to the side creating one book.
+    update player 2's score by 1.
+  after action is complete pass turn to player 2
+  player 2 goes for a card type that they own
+  if player 1 has card:
+    give them all of that type
+  else if deck contains cards:
+    player 2 draws one card from the remaining deck of cards
+  after action is complete pass turn to player 1
+  if player 1 runs out of cards, player 1 draws 3 cards
+  if player 2 runs out of cards, player 2 draws 3 cards
+  when no more cards are left in the deck, do nothing
